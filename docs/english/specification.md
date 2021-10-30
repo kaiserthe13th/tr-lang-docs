@@ -1,7 +1,5 @@
 # Specification
 
-#### ❕ All of the below have not yet been implemented
-
 ## Datatypes
 
 ### Strings

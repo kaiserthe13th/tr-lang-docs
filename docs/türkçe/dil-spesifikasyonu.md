@@ -1,7 +1,5 @@
 # Dil Spesifikasyonu
 
-#### ❕ Aşağıdakilerin hiçbiri tamamlanmamıştır
-
 ## Veri Tipleri
 
 ### Yazı
