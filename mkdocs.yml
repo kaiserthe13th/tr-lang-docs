@@ -1,0 +1,89 @@
+site_name: tr-lang
+
+edit_uri: ""
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: '#'
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+repo_url: https://github.com/kaiserthe13th/tr-lang
+repo_name: kaiserthe13th/tr-lang
+
+copyright: Copyright &copy; 2021 Kerem Göksu
+
+extra:
+  homepage: /english
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kaiserthe13th
+      name: kaiserthe13th on Github
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/KaiserKerem13/
+      name: KaiserKerem13 on Reddit
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCaicwhqsLTO2osTFmw0BkHw
+      name: Kaiserthe13th on Youtube
+  alternate:
+    - name: English
+      link: /english/
+      lang: en
+    - name: Türkçe
+      link: /türkçe/
+      lang: tr
+#  consent:
+#    title: Cookie consent
+#    description: > 
+#      We use cookies to recognize your repeated visits and preferences, as well
+#      as to measure the effectiveness of our documentation and whether users
+#      find what they're searching for. With your consent, you're helping us to
+#      make our documentation better.
+
+plugins:
+  - search:
+      lang:
+        - en
+        - tr
+
+theme:
+  icon:
+    repo: fontawesome/brands/github
+
+  favicon: assets/favicon.svg
+  logo: assets/logo.png
+
+  features:
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+
+  font:
+    text: Fira Sans
+    code: Fira Mono
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
