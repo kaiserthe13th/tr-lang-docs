@@ -73,8 +73,28 @@ yoksa
 son
 ```
 
+### işlev
+tr-lang'da işlevler
+işlevler çağırılabilen, yeniden kullanılabilir kod parçalarıdır.
+Ancak çoğu diğer programlama dilinin aksine tr-lang fonksiyonları argüman almaz.
+Özel argümanlar almak yerine, programın herhangi diğer yanı gibi stackle etkileşime girebilirler.
+```py
+işlev kadar-topla
+  kpy 0 > ise
+    kpy -- recursive-sum-up-to +
+  son
+son
+
+5 kadar-topla de "\n" de
+```
+
+#### Stdout
+```
+15
+```
+
 ### son
-ise-yoksa bloğunu bitirir
+ise-yoksa, iken veya işlev bloğunu bitirir
 
 ## Commentler
 kodunuzu nasıl commentlersiniz? sadece `-*` ile bir blok comment başlatın ve `*-` ile sonlandırın

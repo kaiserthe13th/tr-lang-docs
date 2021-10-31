@@ -65,7 +65,7 @@ son
 
 ### iken
 while statement in tr-lang
-used to repeat something on a condition
+they are used to repeat something on a condition.
 ```py
 10
 :. kpy 0 > iken
@@ -73,8 +73,28 @@ used to repeat something on a condition
 son
 ```
 
+### işlev
+functions in tr-lang
+they are reusable bits of code that you can call.
+However unlike most other programming languages functions, functions in tr-lang do not take arguments.
+Rather than taking special arguments they instead can interact with the stack as any other part of the program.
+```py
+işlev recursive-sum-up-to
+  kpy 0 > ise
+    kpy -- recursive-sum-up-to +
+  son
+son
+
+5 recursive-sum-up-to de "\n" de
+```
+
+#### Stdout
+```
+15
+```
+
 ### son
-ends an if-else or while block
+ends an if-else, while or function block
 
 ## Comments
 so how do you comment code? just start a block comment with `-*` and end it with `*-`
