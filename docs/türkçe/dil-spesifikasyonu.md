@@ -81,7 +81,7 @@ Ancak çoğu diğer programlama dilinin aksine tr-lang fonksiyonları argüman a
 ```py
 işlev kadar-topla
   kpy 0 > ise
-    kpy -- recursive-sum-up-to +
+    kpy -- kadar-topla +
   son
 son
 
@@ -95,6 +95,31 @@ son
 
 ### son
 ise-yoksa, iken veya işlev bloğunu bitirir
+
+### üst
+sondan ikinci değişkeni kopyalar
+```py
+10 5 üst -* 10 5 10 la aynı *-
+```
+
+### tks
+son değişkeni sondan ikinci değişkenle takas eder
+```py
+32 64 tks -* 64 32 yle aynı *-
+```
+
+### girdi
+kullanıcıdan yazı olarak bir yanıt al
+```py
+"Adın ne? " de girdi -* Terminal: Adın ne? [kullanıcıdan alınan yanıt] *-
+"Adın " de de ".\n" de -* Terminal: Adın [kullanıcıdan alınan yanıt]. *-
+```
+
+### dön
+son üç değişkeni döndürür
+```py
+10 20 30 dön -* 30 20 10 la aynı *-
+```
 
 ## Commentler
 kodunuzu nasıl commentlersiniz? sadece `-*` ile bir blok comment başlatın ve `*-` ile sonlandırın

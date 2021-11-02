@@ -21,13 +21,13 @@ tr-lang is a stack based language and uses reverse-polish notation for maths.
 
 # :trophy: What Has Been Implemented?
 
-## ✔️ All parts of the language seems like they are done!
+## :white_check_mark: All parts of the language seems like they are done!
 
-#### ✔️ tr-lang lexer seems like its done [Issue #1](https://github.com/kaiserthe13th/tr-lang/issues/1#issue-1027652152)<br>
-#### ✔️ tr-lang parser is in progress [Issue #2](https://github.com/kaiserthe13th/tr-lang/issues/2#issue-1027660436)<br>
-#### ✔️ tr-lang bytecode seems like its done [Issue #3](https://github.com/kaiserthe13th/tr-lang/issues/3#issue-1027661753)<br>
-#### ✔️ tr-lang bytecode reader seems like its done [Issue #4](https://github.com/kaiserthe13th/tr-lang/issues/4#issue-1027663331)<br>
-#### ✔️ tr-lang runtime seems like its done [Issue #5](https://github.com/kaiserthe13th/tr-lang/issues/5#issue-1027665033)<br>
+#### :white_check_mark: tr-lang lexer seems like its done [Issue #1](https://github.com/kaiserthe13th/tr-lang/issues/1#issue-1027652152)<br>
+#### :white_check_mark: tr-lang parser is in progress [Issue #2](https://github.com/kaiserthe13th/tr-lang/issues/2#issue-1027660436)<br>
+#### :white_check_mark: tr-lang bytecode seems like its done [Issue #3](https://github.com/kaiserthe13th/tr-lang/issues/3#issue-1027661753)<br>
+#### :white_check_mark: tr-lang bytecode reader seems like its done [Issue #4](https://github.com/kaiserthe13th/tr-lang/issues/4#issue-1027663331)<br>
+#### :white_check_mark: tr-lang runtime seems like its done [Issue #5](https://github.com/kaiserthe13th/tr-lang/issues/5#issue-1027665033)<br>
 
 ## :memo: Commands
 
@@ -35,6 +35,7 @@ tr-lang is a stack based language and uses reverse-polish notation for maths.
 * `tr-lang b <path-to-file> [-o <output-file>]` - Generate bytecode for file and put it in `output-file` if it exists if not put it in `path-to-file.byt`.
 * `tr-lang yb <path-to-bytecode>` - Run from bytecode.
 * `tr-lang -h` - Print help message and exit.
+* `tr-lang -V` - Print version info and exit.
 
 # :rocket: Installation
 

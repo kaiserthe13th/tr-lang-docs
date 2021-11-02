@@ -46,6 +46,8 @@ copies a variable
 ### ise
 if statement in tr-lang
 check conditions!
+> :memo: You can use `?` instead
+
 ```py
 10 0 > ise
   "Hello\n" de
@@ -55,6 +57,8 @@ son
 ### yoksa
 else statement in tr-lang
 What dould you do if `if` was wrong?
+> :memo: You can use `:?` instead
+
 ```py
 10 0 < ise
   "How did we get here?\n" de
@@ -95,6 +99,32 @@ son
 
 ### son
 ends an if-else, while or function block
+> :memo: you can use `=?` instead
+
+### üst
+copy the variable second to last
+```py
+10 5 üst -* same as 10 5 10 *-
+```
+
+### tks
+swap the last variable on stack with the second last
+```py
+32 64 tks -* same as 64 32 *-
+```
+
+### girdi
+take input from user as string
+```py
+"What's your name? " de girdi -* Terminal: What's your name? [some input from user] *-
+"Your name is " de de ".\n" de -* Terminal: Your name is [some input from user]. *-
+```
+
+### dön
+rotate last three elements on the stack
+```py
+10 20 30 dön -* same as 30 20 10 *-
+```
 
 ## Comments
 so how do you comment code? just start a block comment with `-*` and end it with `*-`

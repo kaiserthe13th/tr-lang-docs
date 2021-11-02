@@ -22,13 +22,13 @@ tr-lang küme(stack) orantılı bir dil ve matematik için ters leh notasyonu ku
 
 # :trophy: Dilin Hangi Parçaları Tamamlandı?
 
-## ✔️ Dilin tüm parçaları tamamlanmış gözüküyor!
+## :white_check_mark: Dilin tüm parçaları tamamlanmış gözüküyor!
 
-#### ✔️ tr-lang lexer'ı bitmiş gibi gözüküyor [İssue #1](https://github.com/kaiserthe13th/tr-lang/issues/1#issue-1027652152)<br>
-#### ✔️ tr-lang parser'ı bitmiş gibi gözüküyor [İssue #2](https://github.com/kaiserthe13th/tr-lang/issues/2#issue-1027660436)<br>
-#### ✔️ tr-lang bytecode bitmiş gibi gözüküyor [İssue #3](https://github.com/kaiserthe13th/tr-lang/issues/3#issue-1027661753)<br>
-#### ✔️ tr-lang bytecode okuyucu bitmiş gibi gözüküyor [İssue #4](https://github.com/kaiserthe13th/tr-lang/issues/4#issue-1027663331)<br>
-#### ✔️ tr-lang çalışma zamanı bitmiş gibi gözüküyor [İssue #5](https://github.com/kaiserthe13th/tr-lang/issues/5#issue-1027665033)<br>
+#### :white_check_mark: tr-lang lexer'ı bitmiş gibi gözüküyor [İssue #1](https://github.com/kaiserthe13th/tr-lang/issues/1#issue-1027652152)<br>
+#### :white_check_mark: tr-lang parser'ı bitmiş gibi gözüküyor [İssue #2](https://github.com/kaiserthe13th/tr-lang/issues/2#issue-1027660436)<br>
+#### :white_check_mark: tr-lang bytecode bitmiş gibi gözüküyor [İssue #3](https://github.com/kaiserthe13th/tr-lang/issues/3#issue-1027661753)<br>
+#### :white_check_mark: tr-lang bytecode okuyucu bitmiş gibi gözüküyor [İssue #4](https://github.com/kaiserthe13th/tr-lang/issues/4#issue-1027663331)<br>
+#### :white_check_mark: tr-lang çalışma zamanı bitmiş gibi gözüküyor [İssue #5](https://github.com/kaiserthe13th/tr-lang/issues/5#issue-1027665033)<br>
 
 ## :memo: Komutlar
 
@@ -36,6 +36,7 @@ tr-lang küme(stack) orantılı bir dil ve matematik için ters leh notasyonu ku
 * `tr-lang b <dosya> [-o <çıktı-dosyası>]` - dosya için bytecode oluştur ve eğer belirtildiyse `çıktı-dosyası`na yoksa `dosya.byt`ye koy.
 * `tr-lang yb <bytecode>` - bytecode'dan çalıştır.
 * `tr-lang -h` - Yardım mesajı yaz ve çık.
+* `tr-lang -V` - Sürüm bilgisi yaz ve çık.
 
 # :rocket: İndirme
 
