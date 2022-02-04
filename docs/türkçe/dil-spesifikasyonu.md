@@ -23,7 +23,7 @@ doğru
 yanlış
 ```
 
-### None
+### Hiç
 
 ```py
 hiç
