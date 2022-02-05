@@ -40,7 +40,7 @@ son
 ## Anahtar Kelimeler
 
 ### yükle
-bir modülü içe aktarır veya dahil eder
+bir modülü içe aktarır veya dahil eder; ya da bir modülün içindekileri kapsam içine alır.
 #### Dahil etme
 Dahil etmeyi modüldeki kodu kopyalayıp yapıştırmaya benzetebilirsiniz.
 ```py
@@ -54,6 +54,18 @@ böyle kullanıldıklarında onları adları altında kullanabilirsiniz.
 yükle "benim-modulüm" -> benim-modulüm
 # "benim-modülüm" modulünü benim-modulüm adlı değişkene koyar.
 ```
+
+#### Kapsam İçine Alma
+```py
+yükle "mat.trl" -> mat # tests/ klasöründen mat.trl
+yükle (mat:faktoriyel) # mat'taki faktoriyel'i kapsam içine getirir.
+4 faktoriyel de
+```
+##### Stdout
+```
+24
+```
+> Not: kapsam içine alırken tanımlayıcı:`*` durumunda tanımlayıcı'nın içindeki herşey kapsama alınır.
 
 ### de
 bir değişkeni ekrana yazdırmak için kullanılır

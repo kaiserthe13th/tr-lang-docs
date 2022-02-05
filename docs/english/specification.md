@@ -40,12 +40,13 @@ son
 ## Keywords
 
 ### yükle
-imports or includes a module
+imports or includes a module; or it can also bring items in to scope
 #### Including
 you can think of including as copy-pasting the code in the module
 ```py
 yükle "my-module"* # notice the star
 ```
+
 #### Importing
 importing is different however as it creates what we call named modules.
 you can use them under their names in this case.
@@ -54,6 +55,19 @@ This is what we recommend you to use, especially when dealing with third-party m
 yükle "my-module" -> my-module
 # imports "my-module" inside a variable called my-module
 ```
+
+#### Bringing Items into Scope
+```py
+yükle "math.trl" -> math # math.trl from tests/
+yükle (math:factorial) # brings factorial from math into scope
+4 factorial de
+```
+##### Stdout
+```
+24
+```
+> Note: while bringing things into scope; in case the language encounters identifier:`*`,
+> it will bring everything in identifier into the scope.
 
 ### de
 used to display datatypes to the screen
