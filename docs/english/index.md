@@ -1,6 +1,15 @@
-# ![tr-lang](./img/logo/logo.png)
-#### <center>Fast and Easy</center>
-<hr style="width: 50%;">
+# tr-lang
+
+[![GitHub license](https://img.shields.io/github/license/kaiserthe13th/tr-lang)](https://github.com/kaiserthe13th/tr-lang/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/kaiserthe13th/tr-lang)](https://github.com/kaiserthe13th/tr-lang/issues)
+[![GitHub stars](https://img.shields.io/github/stars/kaiserthe13th/tr-lang)](https://github.com/kaiserthe13th/tr-lang/stargazers)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaiserthe13th/tr-lang?label=latest%20github%20release)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kaiserthe13th/tr-lang?include_prereleases&label=latest%20github%20prerelease)
+![Crates.io](https://img.shields.io/crates/v/tr-lang)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kaiserthe13th.tr-lang?label=vscode%20extension%20version)
+![PyPI](https://img.shields.io/pypi/v/tr-lang-py?label=tr-lang-py)
+![Platforms](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-blue)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/kaiserthe13th/tr-lang/master)
 
 ### Made with ❤️ in 🇹🇷
 
